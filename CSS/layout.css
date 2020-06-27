@@ -1,11 +1,9 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
 	font-family: 'Poppins', sans-serif;
-	color:white;
+	/* color:white; */
 }
 
 /*Hero Starts*/
@@ -16,6 +14,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 
 .hero-head{
@@ -40,7 +39,7 @@ body{
 .bookBtn:hover{
 	border-radius:10px;
 }
-.btn{
+.homeBtn{
 	padding:0;
 	margin-bottom:5px;
 	color:white;
@@ -59,9 +58,9 @@ body{
 
 .section-title{
 	font-family: 'Playfair Display', serif;
-	color:blue;
-	font-size:30px;
-	line-height:40px;
+	color: #0E385D;
+	font-size:70px;
+	/* line-height:80px; */
 	text-align: center;
 }
 .icon-box{
@@ -80,6 +79,7 @@ body{
 }
 
 
+/* whatsapp */
 
 #whatsappcontact {
 	display: flex;
@@ -89,9 +89,10 @@ body{
 	justify-content: center;
 	cursor:pointer;
 	position:fixed;
-	bottom:40px;
+	bottom:5px;
 	right:40px;
 	z-index: 999;
+	color: black;
   }
   #whatsappcontact svg {
 	display:inline-block;
@@ -114,7 +115,6 @@ body{
 	margin-right:10px;
 	padding:5px;
 	background-color:#fff;
-
   }
   #whatsappcontact #ucx {
 	 position:absolute;
@@ -125,13 +125,6 @@ body{
 	 border-top: 5px solid transparent;
 	 border-bottom: 5px solid transparent;
   }
-
-
-.styling{
-	border: 1px solid black;
-}
-
-
 
 /* gallery */
 .gallery{
@@ -184,9 +177,15 @@ body{
 	}
 	.section-title{
 		font-family: 'Playfair Display', serif;
-		color:blue;
-		font-size:45px;
-		line-height:50px;
+		color: #0E385D;
+		font-size:70px;
+		/* line-height:80px; */
+	}
+	#section-facilities{
+		color: black;
+	}
+	footer{
+		color:black;
 	}
 	
 	
