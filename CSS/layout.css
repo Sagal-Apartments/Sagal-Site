@@ -36,46 +36,20 @@ body{
 	border-radius:20px;
 	cursor:pointer;
 }
+.bookBtn a{
+	text-decoration: none;
+	color: white;
+}
 .bookBtn:hover{
 	border-radius:10px;
 }
 .homeBtn{
 	padding:0;
 	margin-bottom:5px;
-	color:white;
 }
 .bookBtn > .fa-whatsapp{
 	padding-top:5px;
 	font-size:20px;
-}
-
-
-
-/*Facilities*/
-.facilities{
-	padding:20px 4%;
-}
-
-.section-title{
-	font-family: 'Playfair Display', serif;
-	color: #0E385D;
-	font-size:70px;
-	/* line-height:80px; */
-	text-align: center;
-}
-.icon-box{
-	padding:15px;
-}
-.icon-box .fa-utensils{
-	color:#6f4e37;
-	font-size:50px;
-}
-.icon-box .fa-shopping-cart{
-	color:green;
-	font-size:50px;
-}
-.icon-box small{
-	color:black;
 }
 
 
@@ -89,7 +63,7 @@ body{
 	justify-content: center;
 	cursor:pointer;
 	position:fixed;
-	bottom:5px;
+	bottom:40px;
 	right:40px;
 	z-index: 999;
 	color: black;
@@ -126,8 +100,25 @@ body{
 	 border-bottom: 5px solid transparent;
   }
 
+/* prizing */
+
+#section-prizing{
+	background-color: #F8F8F8;
+}
+
+#section-prizing h2{
+	font-family: 'Playfair Display', serif;
+	color: #0E385D;
+	font-size: 70px;
+}
+.btn-primary{
+	background-color: #0E385D;
+	border-color:  #0E385D;
+}
+
+
 /* gallery */
-.gallery{
+#section-gallery{
 	/* font-family: 'Poppins', sans-serif; */
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
@@ -142,10 +133,25 @@ body{
 	/* width: 350px; */
 }
 
-/* contact */
-.contact{
+/* map */
+.mapouter{
+	position:relative;
+	text-align:center;
+	height:350px;
+	width:100%;
+}
+.gmap_canvas{
+	overflow:hidden;
+	background:none!important;
+	height:350px;
+	width:100%;
+}
+
+
+/* contact Info */
+#section-contactInfo{
 	font-family: 'Poppins', sans-serif;
-	/* color: #0E385D; */
+		background-color: #F8F8F8;
 }
  .contact p{
 	 line-height: 30px;
@@ -165,7 +171,7 @@ body{
 
 /**/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 	/* For desktop: */
 	.brandName{
 		font-size:80px;
@@ -183,6 +189,19 @@ body{
 	}
 	#section-facilities{
 		color: black;
+	}
+	/* map */
+	.mapouter{
+		position:relative;
+		text-align:right;
+		height:350px;
+		width:600px;
+	}
+	.gmap_canvas{
+		overflow:hidden;
+		background:none!important;
+		height:350px;
+		width:600px;
 	}
 	footer{
 		color:black;
