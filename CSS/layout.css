@@ -100,7 +100,7 @@ body{
 	border-radius:20px;
 }
 .homeBtn{
-	padding:0;
+	padding:5px 0;
 	margin-bottom:5px;
 }
 .homeBtn > .fa-whatsapp{
@@ -123,6 +123,10 @@ body{
 	.homeSubtitle{
 		font-size:15px;
 		font: weight 200;
+	}
+	
+	.homeBtn{
+		padding:10px 0;
 	}
 
 }
@@ -226,7 +230,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #F8F8F8;
 }
-#contact-body{
+.contact-body{
 	font-size: 12.5px;
 	color: #414141;
 }
@@ -235,32 +239,13 @@ body{
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
 }
-#contact-title{
+.contact-title{
 	color: #0E385D;
 	font-size: 20px;
 }
 /**/
 
 @media only screen and (min-width: 1024px) {
-	/* For desktop: */
-	.brandName{
-		font-size:80px;
-		line-height:40px;
-		
-	}
-	.bookBtn{
-		margin:0 35%;
-	}
-	.section-title{
-		font-family: 'Playfair Display', serif;
-		color: #0E385D;
-		font-size:70px;
-		/* line-height:80px; */
-	}
-	#section-facilities{
-		color: black;
-	}
-
 	/* prizing-section */
 	#section-prizing h2{
 		font-family: 'Playfair Display', serif;
@@ -276,11 +261,11 @@ body{
 	#contact-header{
 		font-size: 50px;
 	}
-	#contact-title{
+	.contact-title{
 		font-size: 25px;
 	}
-	#contact-body{
-		font-size: 16px;
+	.contact-body{
+		font-size: 12.5px;
 	}
 	footer{
 		color:black;
