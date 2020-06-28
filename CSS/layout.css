@@ -132,11 +132,8 @@ body{
 	background-color: #0E385D;
 	border-color: #0E385D;
 }
-#cardCSS{
-	transition: 1s;
-}
-#cardCSS:hover{
-	transform: scale(1.05);
+.card :hover{
+	box-shadow: ;
 }
 
 /* gallery */
