@@ -243,7 +243,19 @@ body{
 	color: #0E385D;
 	font-size: 20px;
 }
-/**/
+ /* For Mobile-S */
+@media only screen and (width :375px){
+	.contact-body{
+		font-size: 10px;
+	}
+}
+ /* For Mobile-M */
+@media only screen and (width :320px){
+	.contact-body{
+		font-size: 7.5px;
+	}
+}
+/* For Desktop*/
 
 @media only screen and (min-width: 1024px) {
 	/* prizing-section */
@@ -270,6 +282,4 @@ body{
 	footer{
 		color:black;
 	}
-	
-	
 }

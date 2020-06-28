@@ -255,6 +255,7 @@
     
     <script>
       $(document).ready(function() {
+        if(!ontouchstart){
           $( ".card" ).hover(
           function() {
             $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
@@ -262,15 +263,17 @@
             $(this).removeClass('shadow-lg');
           }
         );  
+        }
       });
 
-      document.getElementById('whatsappcontact').onmouseover = function(){
+      if(!ontouchstart){
+        document.getElementById('whatsappcontact').onmouseover = function(){
       document.getElementById('whtmessagetext').style.display = 'inline-block';
       }
       document.getElementById('whatsappcontact').onmouseout = function(){
       document.getElementById('whtmessagetext').style.display = 'none';
       }
-
+      }
     </script>
      
   </body>
