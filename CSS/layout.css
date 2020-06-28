@@ -6,6 +6,54 @@ body{
 	/* color:white; */
 }
 
+/* whatsapp */
+
+#whatsappcontact {
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	cursor:pointer;
+	position:fixed;
+	bottom:40px;
+	right:40px;
+	z-index: 999;
+	color: black;
+}
+#whatsappcontact svg {
+	display:inline-block;
+	background-color:#25D366;
+	box-shadow: 0 0 10px 0px grey;
+	width:60px;
+	height:60px;
+	border-radius:100%;
+	padding:10px;
+}
+#whatsappcontact svg:hover {
+	box-shadow: 0 0 10px 1px grey;
+}
+#whatsappcontact #whtmessagetext {
+	display:none;
+	box-shadow: 0 0 10px 0px grey;
+	font-family:"Roboto Light";
+	position:relative;
+	font-size:20px;
+	margin-right:10px;
+	padding:5px;
+	background-color:#fff;
+}
+#whatsappcontact #ucx {
+	position:absolute;
+	right : 0;
+	width: 0;
+	height: 0;
+	border-left: 10px solid #fff;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
+
+
 /*Hero Starts*/
 .hero{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/heroc.jpg");
@@ -52,60 +100,10 @@ body{
 	font-size:20px;
 }
 
-
-/* whatsapp */
-
-#whatsappcontact {
-	display: flex;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	cursor:pointer;
-	position:fixed;
-	bottom:40px;
-	right:40px;
-	z-index: 999;
-	color: black;
-  }
-  #whatsappcontact svg {
-	display:inline-block;
-	background-color:#25D366;
-	box-shadow: 0 0 10px 0px grey;
-	width:60px;
-	height:60px;
-	border-radius:100%;
-	padding:10px;
-  }
-  #whatsappcontact svg:hover {
-	box-shadow: 0 0 10px 1px grey;
-  }
-  #whatsappcontact #whtmessagetext {
-	display:none;
-	box-shadow: 0 0 10px 0px grey;
-	font-family:"Roboto Light";
-	position:relative;
-	font-size:20px;
-	margin-right:10px;
-	padding:5px;
-	background-color:#fff;
-  }
-  #whatsappcontact #ucx {
-	 position:absolute;
-	 right 0;
-	 width: 0;
-	 height: 0;
-	 border-left: 10px solid #fff;
-	 border-top: 5px solid transparent;
-	 border-bottom: 5px solid transparent;
-  }
-
 /* prizing */
-
 #section-prizing{
 	background-color: #F8F8F8;
 }
-
 #section-prizing h2{
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
@@ -175,22 +173,22 @@ body{
 /* contact Info */
 #section-contactInfo{
 	font-family: 'Poppins', sans-serif;
-		background-color: #F8F8F8;
+	background-color: #F8F8F8;
 }
  .contact p{
-	 line-height: 30px;
- }
+	line-height: 30px;
+}
  #contact-header{
 	font-size: 50px;
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
- }
+}
  #contact-title{
 	color: #0E385D;
- }
+}
  #contact-body{
 	color: #414141;
- }
+}
 
 
 /**/
