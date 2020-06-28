@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 body{
 	font-family: 'Poppins', sans-serif;
-	/* color:white; */
 }
 
 /* whatsapp */
@@ -54,56 +54,114 @@ body{
 }
 
 
-/*Hero Starts*/
-.hero{
+/*Home Starts*/
+
+.home{
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/heroc.jpg");
-	height: 69vh;
-	width:100%;
+	height: 70vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
 }
 
-.hero-head{
+.home-head{
 	padding: 20vh 0 10vh 0;
 }
-.brandName{
+
+.homeTitle{
 	font-size:40px;
-	line-height:30px;
+	line-height:40px;
 	font-family: 'Playfair Display', serif;
 }
 
-.brandCaption{
+.homeCaption{
 	font-size:20px;
 }
 
-.bookBtn{
-	margin:0 10%;
+.homeSubtitle{
+	font-size:15px;
+	line-height:40px;
+	font: weight 200;
+}
+
+.homeBtn{
 	background-color:#25D366;
-	border-radius:20px;
+	box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+	border-radius:5px;
+	padding:30px 0;
 	cursor:pointer;
 }
-.bookBtn a{
+.homeBtn a{
 	text-decoration: none;
 	color: white;
 }
-.bookBtn:hover{
-	border-radius:10px;
+.homeBtn:hover{
+	border-radius:20px;
 }
 .homeBtn{
 	padding:0;
 	margin-bottom:5px;
 }
-.bookBtn > .fa-whatsapp{
+.homeBtn > .fa-whatsapp{
 	padding-top:5px;
 	font-size:20px;
 }
 
-/* prizing */
+@media only screen and (min-width: 768px) {
+
+	.homeTitle{
+		font-size:70px;
+		line-height:40px;
+		font-family: 'Playfair Display', serif;
+	}
+	
+	.homeCaption{
+		font-size:30px;
+	}
+	
+	.homeSubtitle{
+		font-size:15px;
+		font: weight 200;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+	.home{
+		height: 100vh;
+	}
+
+	.homeTitle{
+		font-size:110px;
+		line-height:60px;
+		font-family: 'Playfair Display', serif;
+	}
+	
+	.homeCaption{
+		font-size:40px;
+	}
+	
+	.homeSubtitle{
+		font-size:30px;
+		font-weight: lighter;
+		line-height:80px;
+	}
+
+	.homeBtn{
+		padding:5px 0;
+	}
+
+}
+
+/*Home Ends*/
+
+/* Pricing Starts */
 #section-prizing{
 	background-color: #F8F8F8;
 }
+
 #section-prizing h2{
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
@@ -132,13 +190,9 @@ body{
 	background-color: #0E385D;
 	border-color: #0E385D;
 }
-.card :hover{
-	box-shadow: ;
-}
 
 /* gallery */
 #section-gallery{
-	/* font-family: 'Poppins', sans-serif; */
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
 }
@@ -185,8 +239,6 @@ body{
 	color: #0E385D;
 	font-size: 20px;
 }
-
-
 /**/
 
 @media only screen and (min-width: 1024px) {
