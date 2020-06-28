@@ -107,7 +107,7 @@ body{
 #section-prizing h2{
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
-	font-size: 70px;
+	font-size: 50px;
 }
 .btn-primary{
 	background-color: #0E385D;
@@ -144,7 +144,7 @@ body{
 }
 
 #gallery-title h2{
-	font-size: 70px;
+	font-size: 50px;
 }
 
 #gallery-img{
@@ -172,19 +172,18 @@ body{
 	font-family: 'Poppins', sans-serif;
 	background-color: #F8F8F8;
 }
- .contact p{
-	line-height: 30px;
+#contact-body{
+	font-size: 12.5px;
+	color: #414141;
 }
- #contact-header{
+#contact-header{
 	font-size: 50px;
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
 }
- #contact-title{
+#contact-title{
 	color: #0E385D;
-}
- #contact-body{
-	color: #414141;
+	font-size: 20px;
 }
 
 
@@ -209,18 +208,27 @@ body{
 	#section-facilities{
 		color: black;
 	}
-	/* map */
-	.mapouter{
-		position:relative;
-		text-align:right;
-		height:350px;
-		width:600px;
+
+	/* prizing-section */
+	#section-prizing h2{
+		font-family: 'Playfair Display', serif;
+		color: #0E385D;
+		font-size: 70px;
 	}
-	.gmap_canvas{
-		overflow:hidden;
-		background:none!important;
-		height:350px;
-		width:600px;
+
+	/* gallery-section */
+	#gallery-title h2{
+		font-size: 70px;
+	}
+	/* contact Info */
+	#contact-header{
+		font-size: 50px;
+	}
+	#contact-title{
+		font-size: 25px;
+	}
+	#contact-body{
+		font-size: 16px;
 	}
 	footer{
 		color:black;
