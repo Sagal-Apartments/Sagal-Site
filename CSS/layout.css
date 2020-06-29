@@ -243,14 +243,14 @@ body{
 	color: #0E385D;
 	font-size: 20px;
 }
- /* For Mobile-S */
+ /* For Mobile-M */
 @media only screen and (max-width :424px){
 	.contact-body{
 		font-size: 10px;
 	}
 }
- /* For Mobile-M */
-@media only screen and (max-width :320px){
+ /* For Mobile-S */
+@media only screen and (max-width : 374px){
 	.contact-body{
 		font-size: 7.5px;
 	}
