@@ -21,7 +21,7 @@ body{
 	z-index: 999;
 	color: black;
 }
-#whatsappcontact svg {
+#whatsappcontact #whaticon {
 	display:inline-block;
 	background-color:#25D366;
 	box-shadow: 0 0 10px 0px grey;
@@ -30,7 +30,12 @@ body{
 	border-radius:100%;
 	padding:10px;
 }
-#whatsappcontact svg:hover {
+#whaticon{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+#whatsappcontact #whaticon:hover {
 	box-shadow: 0 0 10px 1px grey;
 }
 #whatsappcontact #whtmessagetext {
