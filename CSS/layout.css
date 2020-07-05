@@ -102,7 +102,7 @@ body{
 	color: white;
 }
 .homeBtn:hover{
-	border-radius:20px;
+	background: rgba(76, 175, 80, 0.6);
 }
 .homeBtn{
 	padding:5px 0;
@@ -288,4 +288,9 @@ body{
 	footer{
 		color:black;
 	}
+}
+
+/*Footer*/
+.dev-footer{
+	font-size:13px;
 }
