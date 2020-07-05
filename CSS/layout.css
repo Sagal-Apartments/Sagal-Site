@@ -62,11 +62,11 @@ body{
 /*Home Starts*/
 
 .home{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/heroc.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/1.jpeg");
 	height: 70vh;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	color: white;
 }
 
@@ -274,6 +274,7 @@ body{
 	#gallery-title h2{
 		font-size: 70px;
 	}
+
 	/* contact Info */
 	#contact-header{
 		font-size: 50px;
