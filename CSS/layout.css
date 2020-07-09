@@ -4,6 +4,16 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.title{
+	font-family: 'Playfair Display', serif;
+}
+
+.content .title h2{
+	color: #0E385D;
+	font-size: 45px;
 }
 
 /* whatsapp */
@@ -13,6 +23,7 @@ body{
 	-webkit-align-items: center;
 	align-items: center;
 	-webkit-justify-content: center;
+
 	justify-content: center;
 	cursor:pointer;
 	position:fixed;
@@ -48,15 +59,7 @@ body{
 	padding:5px;
 	background-color:#fff;
 }
-#whatsappcontact #ucx {
-	position:absolute;
-	right : 0;
-	width: 0;
-	height: 0;
-	border-left: 10px solid #fff;
-	border-top: 5px solid transparent;
-	border-bottom: 5px solid transparent;
-}
+
 
 
 /*Home Starts*/
@@ -70,149 +73,67 @@ body{
 	color: white;
 }
 
-.home-head{
+.home .head{
 	padding: 20vh 0 10vh 0;
 }
 
-.homeTitle{
-	font-size:40px;
-	line-height:40px;
-	font-family: 'Playfair Display', serif;
+.home .title{
+	font-size:2.5rem;
 }
 
-.homeCaption{
-	font-size:20px;
+.home span{
+	font-size:1rem;
 }
 
-.homeSubtitle{
-	font-size:15px;
-	line-height:40px;
-	font: weight 200;
-}
-
-.homeBtn{
+.home .btn{
 	background-color:#25D366;
 	box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034);
-	border-radius:5px;
-	padding:30px 0;
+	padding:0.5rem;
+	border-radius:30px;
 	cursor:pointer;
 }
-.homeBtn a{
+.home .btn a{
 	text-decoration: none;
 	color: white;
 }
-.homeBtn:hover{
+
+.home .btn:hover{
 	background: rgba(76, 175, 80, 0.6);
 }
-.homeBtn{
-	padding:5px 0;
-	margin-bottom:5px;
-}
-.homeBtn > .fa-whatsapp{
+
+.home .btn .fa-whatsapp{
 	padding-top:5px;
-	font-size:20px;
-}
-
-@media only screen and (min-width: 768px) {
-
-	.homeTitle{
-		font-size:70px;
-		line-height:40px;
-		font-family: 'Playfair Display', serif;
-	}
-	
-	.homeCaption{
-		font-size:30px;
-	}
-	
-	.homeSubtitle{
-		font-size:15px;
-		font: weight 200;
-	}
-	
-	.homeBtn{
-		padding:10px 0;
-	}
-
-}
-
-@media only screen and (min-width: 1024px) {
-
-	.home{
-		height: 100vh;
-	}
-
-	.homeTitle{
-		font-size:110px;
-		line-height:60px;
-		font-family: 'Playfair Display', serif;
-	}
-	
-	.homeCaption{
-		font-size:40px;
-	}
-	
-	.homeSubtitle{
-		font-size:30px;
-		font-weight: lighter;
-		line-height:80px;
-	}
-
-	.homeBtn{
-		padding:5px 0;
-	}
-
+	color: white;
+	font-size:1rem;
 }
 
 /*Home Ends*/
 
+
+
 /* Pricing Starts */
-#section-prizing{
+.pricing{
 	background-color: #F8F8F8;
 }
 
-#section-prizing h2{
-	font-family: 'Playfair Display', serif;
-	color: #0E385D;
-	font-size: 50px;
+
+.card-btn{
+	background-color: #0E385D;
+	border-color:  #0E385D;
+	border-radius: 24px;
+	padding:5px 20px;
 }
-.btn-primary{
+
+.card-btn:hover{
+	opacity:0.7;
 	background-color: #0E385D;
 	border-color:  #0E385D;
 }
-.btn-primary:hover{
-	background-color: #092741;
-	border-color: #092741;
-}
-.btn-primary:focus{
-	border: 0;
-	box-shadow: none;
-	outline: none;
-	background-color: #0E385D;
-	border-color: #0E385D;
- 	transform: none;
-}
-.btn-primary:active{
-	transform: none;
-	border: 0;
-	outline: none;
-	background-color: #0E385D;
-	border-color: #0E385D;
-}
 
 /* gallery */
-#section-gallery{
-	font-family: 'Playfair Display', serif;
-	color: #0E385D;
-}
-
-#gallery-title h2{
-	font-size: 50px;
-}
 
 #gallery-img{
 	height: 350px;
-	/* width: 350px; */
 }
 
 /* map */
@@ -231,63 +152,89 @@ body{
 
 
 /* contact Info */
-#section-contactInfo{
-	font-family: 'Poppins', sans-serif;
+.contact{
 	background-color: #F8F8F8;
 }
-.contact-body{
+.contact .body{
 	font-size: 12.5px;
 	color: #414141;
 }
-#contact-header{
-	font-size: 50px;
+.contact .subtitle{
+	font-size: 20px;
 	font-family: 'Playfair Display', serif;
 	color: #0E385D;
 }
-.contact-title{
-	color: #0E385D;
-	font-size: 20px;
-}
- /* For Mobile-M */
-@media only screen and (max-width :424px){
-	.contact-body{
-		font-size: 12px;
-	}
-}
+
+
  /* For Mobile-S */
 @media only screen and (max-width : 374px){
-	.contact-body{
+	.contact .body{
 		font-size: 9.5px;
 	}
 }
+
+ /* For Mobile-M */
+ @media only screen and (max-width :424px){
+	.contact .body{
+		font-size: 12px;
+	}
+}
+
+/*For Tablet*/
+@media only screen and (min-width: 768px) {
+
+	.home .title{
+		font-size:4rem;
+		font-family: 'Playfair Display', serif;
+	}
+	
+	.home span{
+		font-size:1rem;
+		line-height:1rem;
+		font: weight 200;
+	}
+	
+	.home .btn{
+		padding:10px 0;
+	}
+
+}
+
 /* For Desktop*/
 
 @media only screen and (min-width: 1024px) {
-	/* prizing-section */
-	#section-prizing h2{
+
+	.home{
+		height: 100vh;
+	}
+
+	.home .title{
+		font-size:110px;
+		line-height:60px;
 		font-family: 'Playfair Display', serif;
-		color: #0E385D;
+	}
+	
+	.home span{
+		font-size:30px;
+		line-height:100px;
+	}
+	
+	.home .btn{
+		padding:10px;
+	}
+
+	.content .title h2{
 		font-size: 70px;
 	}
 
-	/* gallery-section */
-	#gallery-title h2{
-		font-size: 70px;
+	.contact .subtitle{
+		font-size: 30px;
 	}
-
-	/* contact Info */
-	#contact-header{
-		font-size: 50px;
-	}
-	.contact-title{
-		font-size: 25px;
-	}
-	.contact-body{
+	
+	.contact .body{
 		font-size: 14.5px;
 	}
-	footer{
-		color:black;
-	}
+	
 }
 
 /*Footer*/
